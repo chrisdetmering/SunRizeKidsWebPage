@@ -1,0 +1,274 @@
+h1 { 
+  font-size: 82px;
+  font-weight: 700;
+  font-family: 'Amatic SC', Arial, Helvetica, sans-serif !important;
+  color: #654321;
+}
+
+h2 { 
+  font-size: 60px;
+  font-weight: 700;
+  font-family: 'Amatic SC', Arial, Helvetica, sans-serif !important;
+  color: #654321;
+}
+
+p { 
+  font-family: "Quattrocento Sans", sans-serif;
+  padding: 0px;
+  font-size: 18px;
+}
+
+body { 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f3eee4;
+  position: relative;
+  color: #393a39;
+  font-size: 16px;
+  line-height: 1.5em;
+  letter-spacing: 0.2px;
+}
+
+ul { 
+  text-align: left;
+}
+ol { 
+  text-align: left;
+}
+
+.hidden { 
+  display: none;
+}
+
+
+/* Jumbotron */
+
+.splash { 
+  padding-top: 100px;
+}
+.jumbotron-fluid { 
+  background-image: url('images/kids_rize_background.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 800px;
+  display: flex; 
+  align-items: center;
+}
+
+.information { 
+  text-align: center;
+}
+
+.information > h2 { 
+  margin: 0px; 
+}
+
+.display-4, .lead { 
+  color: white; 
+}
+
+.display-4 { 
+  font-size: 100px;
+}
+.orange { 
+  background-color: orange;
+  border: none;
+}
+
+.orange:hover { 
+  background-color: #654321;
+}
+
+/* sections */
+.section { 
+  height: 485px;
+  background-image: url('images/teal-paper-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+.tall { 
+  height: 550px;
+}
+
+.program-info { 
+  padding: 60px;
+}
+
+#program-video { 
+  padding: 60px;
+  height: 476px;
+}
+
+.program-info-2{ 
+  padding: 20px 60px 60px 60px; 
+}
+
+.info-header { 
+  border-bottom: 5px solid orange;
+}
+
+.app-info { 
+  text-align: right;
+}
+
+.download-app-icon { 
+  width: 140px
+}
+
+.wodify-app-img { 
+  height: 500px;
+}
+
+
+/* Footer */
+
+.footer { 
+  background: #393a39;
+  height: 400px;
+}
+
+.footer-brand-icon { 
+  width: 100px; height: 50px;
+  margin-top: 20px; 
+  margin-bottom: 10px;
+  background-size: contain;
+  background-image: url('images/kids_rise.png');
+  background-repeat: no-repeat;
+  background-position: center; 
+}
+
+.fab:before  { 
+  margin: 10px
+}
+
+.social-media-icons { 
+  margin-top: 10px; 
+}
+
+/* Contact Form */
+.comtact-form { 
+  color: white; 
+}
+
+
+.contact-header { 
+  color: white;
+  text-align: center;
+}
+
+.form-label { 
+  color: white; 
+}
+
+.contact-btn { 
+  background-color: inherit; 
+  border-color: white; 
+}
+
+.contact-btn:hover { 
+  background-color: inherit; 
+  color: lightgray;
+  border-color: lightgray;
+}
+
+.contact-btn:active { 
+  background-color: wheat; 
+}
+
+.form-input { 
+  width: 100%; 
+  background-color: white;
+  border-top: none; 
+  border-left: none; 
+  border-right: none;
+  border-bottom-color: white;
+  border-bottom-width: 2px; 
+
+}
+
+.form-input:hover { 
+  border: 1px solid #f3eee4;;
+  border-bottom-width: 2px; 
+}
+
+.client-message { 
+  margin-top: 20px; 
+}
+
+.hidden { 
+  display: none; 
+}
+
+/* media queries */
+
+@media screen and (max-width: 1024px) {  
+   h1 { 
+     font-size: 36px; 
+  }
+  h2 { 
+    font-size: 30px; 
+  }
+  li { 
+    font-size: 16px;
+  }
+  .program-info-2 { 
+    padding: 0;
+  }
+} 
+
+@media screen and (max-width: 768px) {
+  .jumbotron-fluid .h1, .jumbotron-fluid h1 {
+      font-size: 100px;
+  }
+
+}
+
+@media screen and (max-width: 768px) { 
+    .jumbotron-fluid { 
+    background-image: url('images/bg_no_kid.png');
+  }
+}
+
+
+@media screen and (max-width: 768px) {  
+   h1 { 
+     font-size: 30px; 
+  }
+  h2 { 
+    font-size: 25px; 
+  }
+  
+} 
+
+
+@media screen and (max-width: 481px) { 
+  iframe { 
+    display: none; 
+  }
+  #video { 
+    height: 100px;
+  }
+  h1 { 
+     font-size: 22px; 
+  }
+  h2 { 
+    font-size: 22px; 
+  }
+  li { 
+    font-size: 12px;
+  }
+  .program-info-2 { 
+    padding: 0;
+  }
+  .download-app-icon {
+    width: 45%;
+ }
+ #download-info { 
+   display: none;
+ }
+ #download-header { 
+   text-align: center;
+ }
+}

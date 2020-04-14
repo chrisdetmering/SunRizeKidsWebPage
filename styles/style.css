@@ -239,6 +239,15 @@ ol {
   h2 { 
     font-size: 25px; 
   }
+  #download-header { 
+   text-align: center;
+  }
+  #download-info { 
+   text-align: center;
+ }
+ .text-center { 
+   text-align: center;
+ }
   
 } 
 
